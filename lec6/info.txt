@@ -1,0 +1,14 @@
+tsc --init
+tsc --watch // tsc -w
+all files simultaneously executed and any changes automatically updates
+
+
+  "exclude":["analytics.ts"], 
+  // *.dev.ts, "**/*dev.ts
+  
+  "include": ["classes.ts","interface.ts"]
+
+
+
+  CLASS-> INITIALIZER
+  INTERFACE- nO INITIALIZER
